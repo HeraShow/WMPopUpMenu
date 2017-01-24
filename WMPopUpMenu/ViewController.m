@@ -349,7 +349,6 @@
     }
     else{
         // 收起下拉筛选菜单
-        // 收起下拉筛选菜单
         if (self.isType) {
             [UIView animateWithDuration:0.3 animations:^{
                 self.orderTypeLayer.frame = CGRectMake(6.5, self.YSpace, KScreenWidth/2 - 14, 0);

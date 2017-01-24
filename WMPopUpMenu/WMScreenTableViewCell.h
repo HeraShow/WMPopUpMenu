@@ -13,6 +13,4 @@
 @property (nonatomic, strong) UIView *screenBgView;
 
 - (void)configreSubScreenCell:(NSString *)screenStr isSelected:(BOOL)isSelected;
-
-- (void)configreSubScreenCell:(NSString *)screenStr;
 @end

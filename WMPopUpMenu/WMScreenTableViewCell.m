@@ -36,12 +36,11 @@
     if (isSelected) {
         self.hintLabel.textColor = WMBlueColor;
     }
+    else{
+        self.hintLabel.textColor = WMContent2Color;
+    }
 }
 
-- (void)configreSubScreenCell:(NSString *)screenStr
-{
-    self.hintLabel.text = screenStr;
-}
 
 
 - (void)awakeFromNib {
